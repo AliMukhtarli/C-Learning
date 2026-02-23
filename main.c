@@ -29,4 +29,11 @@ int main(){
 
     }
 
+    // type casting
+
+    int a = 5, b = 2;
+    float c = (float) a/b;
+    printf("%.1f\n", c);
+    return 0;
+
 }
