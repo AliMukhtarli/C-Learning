@@ -2,7 +2,7 @@
 
 int main(){
 
-    printf("Hello World!!!\n");
+    /*printf("Hello World!!!\n");
     printf("C biz gelluk");
 
     float num;
@@ -15,6 +15,18 @@ int main(){
         printf ("%f is a zero. /n", num);
     else
         printf("%f is a negative number./n", num);
-    return 0;
+    return 0;*/
+
+    for(int i = 1; i <= 100; i++){
+        if(i % 2 == 0){
+            continue;
+            printf("\n");}
+        else if (i % 3 == 0)
+            printf("%d is divisible by  3\n", i);
+        else if (i % 5 == 0){
+            printf("%d is divisible by 5\n", i);
+            break;}
+
+    }
 
 }
